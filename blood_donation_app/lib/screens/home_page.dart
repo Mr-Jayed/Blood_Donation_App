@@ -141,7 +141,12 @@ class HomePage extends StatelessWidget {
             color: Colors.redAccent,
           ),
           const SizedBox(width: 12,),
-          Text(text),
+          Text(
+            text,
+            style: TextStyle(
+              color: Colors.redAccent,
+            ),
+          ),
         ],
       ),
     );

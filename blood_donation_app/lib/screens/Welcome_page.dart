@@ -12,7 +12,11 @@ class WelcomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.bloodtype, size: 100, color: Colors.red),
+            Icon(
+                Icons.bloodtype,
+                size: 100,
+                color: Colors.redAccent,
+            ),
             SizedBox(height: 20),
             Text(
               "Welcome to BloodConnect",
